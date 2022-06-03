@@ -1,0 +1,6 @@
+- Instalar o VSCode
+    - Instalar as Extensões
+    - `formulahendry.code-runner`  Para executar o JavaScript e TypeScript
+- Vou usar o Ambiente com WSL + Ubuntu no Windows 11
+- Instalar o NodeJs
+    - Instalar o Node usando o [asdf](https://asdf-vm.com/)
