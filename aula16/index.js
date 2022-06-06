@@ -9,3 +9,4 @@ console.log(Math.min(2,54,3,5,6,7,8,9,10));
 
 console.log(Math.random() * (10 - 1) + 1);
 
+console.log(100/0);
