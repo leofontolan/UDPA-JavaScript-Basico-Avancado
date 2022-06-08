@@ -27,15 +27,7 @@ body{
     border-radius: 10px;
 }
 
-.resultado{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 10px;
-    background: red;
-    color: #ccc;
-    padding: 10px;
-}
+
 
 .tabela{
     display: flex;
