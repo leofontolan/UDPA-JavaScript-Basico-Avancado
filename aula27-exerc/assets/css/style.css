@@ -27,28 +27,6 @@ body{
     border-radius: 10px;
 }
 
-
-
-.tabela{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-}
-
-.tabela .coluna-imc-titulo{
-    width: 50%;
-    font-weight: 700;
-}
-
-.tabela .coluna-imc-conteudo{
-    width: 50%;
-    font-size: 13px;
-    margin: auto;
-}
-
-
 form input, form label, form button{
     display: block;
     width: 100%;
