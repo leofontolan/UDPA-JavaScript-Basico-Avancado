@@ -62,3 +62,10 @@ form button:hover{
 form button:active{
     background: var(--primary-color);
 }
+
+.imc-table{
+    width: 100%;
+    text-align: left;
+    margin: 20px 0px 30px 0px;
+
+}
