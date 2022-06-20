@@ -86,7 +86,11 @@ form button:active{
     padding: 20px;
 }
 
-.paragrafo-resultado{
+.paragrafo-resultado, .bad{
     background: rgb(113, 172, 3);
     padding: 10px 20px;
+}
+
+.bad{
+    background: rgb(255, 0, 0);
 }
