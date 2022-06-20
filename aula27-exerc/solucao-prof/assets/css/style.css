@@ -85,3 +85,8 @@ form button:active{
     background: red;
     padding: 20px;
 }
+
+.paragrafo-resultado{
+    background: rgb(113, 172, 3);
+    padding: 10px 20px;
+}
