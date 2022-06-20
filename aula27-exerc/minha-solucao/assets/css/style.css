@@ -67,5 +67,21 @@ form button:active{
     width: 100%;
     text-align: left;
     margin: 20px 0px 30px 0px;
+}
 
+
+.low-imc{
+    background: orange;
+    padding: 20px;
+    
+}
+
+.medium-imc{
+    background: #0f0;
+    padding: 20px;
+}
+
+.high-imc{
+    background: red;
+    padding: 20px;
 }
