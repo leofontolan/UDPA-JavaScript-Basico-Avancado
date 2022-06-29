@@ -15,3 +15,10 @@ for (let key in first_name) {
 for (let valor of first_name){
     console.log(valor);
 }
+
+//ForEach
+const pessoas = ['Leo', 'Gustavo', 'Bruna', 'Alberto'];
+
+pessoas.forEach(function(valor, indice, array){ 
+    console.log(valor, indice , array); 
+});
