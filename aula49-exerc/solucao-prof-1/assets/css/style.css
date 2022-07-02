@@ -69,6 +69,10 @@ form button:active{
     margin: 20px 0px 30px 0px;
 }
 
-.container h2{
+.container P{
     font-size: 3.5em;
+}
+
+.pausado{
+    color: red;
 }
