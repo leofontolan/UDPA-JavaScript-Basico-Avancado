@@ -22,3 +22,28 @@ function sum(a, b = 0){
     return a + b;
 }
 console.log(sum(2));
+
+
+//Descruturing como argumentos
+function customer({name, email, password}){
+    console.log(name, email, password);
+}
+
+customer({name:'Leo', email:'leo@email.com', password: 123345})
+
+
+//
+function arithmetic(operator, accumulator, ...numbers) {
+    for (let number of numbers){
+        
+        if(operator === '+') accumulator += number;
+        if(operator === '-') accumulator -= number;
+        if(operator === '/') accumulator /= number;
+        if(operator === '*') accumulator *= number;
+
+    }
+
+    console.log('Result: ' + accumulator);
+};
+
+arithmetic('+', 0, 20,30,40,50,60,70,80,90);
