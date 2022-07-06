@@ -32,7 +32,7 @@ function customer({name, email, password}){
 customer({name:'Leo', email:'leo@email.com', password: 123345})
 
 
-//
+//Descruturing
 function arithmetic(operator, accumulator, ...numbers) {
     for (let number of numbers){
         
