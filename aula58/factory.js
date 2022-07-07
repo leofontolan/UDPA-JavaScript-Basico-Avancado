@@ -24,3 +24,27 @@ console.log(p1.showName('Olá'));
 console.log(p1.imc());
 
 const p2 = createPerson('Maria', 'Almeida', 1.60, 46);
+
+
+
+
+const showFullName = {
+
+    firstName: 'Leonardo',
+    lastName: 'Fontolan',
+
+
+    set addName(data){
+        data = data.split(' ');
+        this.firstName = data.shift()
+        this.lastName = data.join(' ')
+    },
+
+    get fullName(){
+        return `${this.firstName} ${this.lastName}`;
+    }
+}
+
+
+showFullName.addName = 'Maria Joaquina Silva';
+console.log(showFullName.fullName);
