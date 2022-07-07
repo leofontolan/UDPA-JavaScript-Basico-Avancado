@@ -12,18 +12,18 @@ function criarCalculadora(){
         cliqueBotoes(){
 
             document.addEventListener('click', function(e){
-                
-                this.btnParaDisplay();
+            
                 const el = e.target;
-
+                
                 if(el.classList.contains('btn-num')){
-                    console.log(el);
+                    this.btnParaDisplay(el.innerText);    
                 };
-            });
+
+            }.bind(this));
         },
 
-        btnParaDisplay(){
-            console.log('Apertou botão');
+        btnParaDisplay(valor){
+            this.display.value += valor;
         }
     };
 }
