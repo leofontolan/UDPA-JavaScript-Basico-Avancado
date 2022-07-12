@@ -30,3 +30,4 @@ const pessoaId = pessoas.map( (valor, key) => ({ id:key, ...valor }));
 console.log( nomePessoa);
 console.log( apenasIdade);
 console.log( pessoaId);
+console.log( pessoas);
