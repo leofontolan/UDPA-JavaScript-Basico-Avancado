@@ -1,9 +1,9 @@
-// Retorne os números maiores que 10
-// const numeros = [5, 50, 80, 1, 2, 3, 5, 8, 7, 11, 15, 22, 27];
+//Retorne os números maiores que 10
+const numeros = [5, 50, 80, 1, 2, 3, 5, 8, 7, 11, 15, 22, 27];
 
-// const numerosFiltrados =  numeros.filter( valor => valor > 10 );
+const numerosFiltrados =  numeros.filter( valor => valor > 10 );
 
-// console.log(numerosFiltrados);
+console.log(numerosFiltrados);
 
 
 
@@ -21,7 +21,7 @@ const pessoas = [
 
 const nomes5Letras = pessoas.filter(pessoas => pessoas.nome.length >= 5);
 const pessoas50Anos = pessoas.filter(pessoas => pessoas.idade > 50);
-const nomeFinalA = pessoas.filter(pessoas => pessoas.nome.slice(-1) === 'a');
+const nomeFinalA = pessoas.filter(pessoas => pessoas.nome.toLocaleLowerCase().endsWith('a'));
 
 
 console.log(nomes5Letras);
