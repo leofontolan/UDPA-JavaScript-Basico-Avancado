@@ -1,34 +1,34 @@
 const produto = { nome: 'Caneca', preco: 1.8};
 const outraCoisa = produto;
 
-// console.log(outraCoisa);
-// console.log(produto);
+console.log(outraCoisa);
+console.log(produto);
 
-// outraCoisa.nome = 'Bermuda';
-// console.log(produto.nome);
+outraCoisa.nome = 'Bermuda';
+console.log(produto.nome);
 
 
 
 const produto2 = { nome: 'Impressora', preco: 600};
 const outra2 = {...produto2}
 
-// outra2.nome = 'Monitor';
+outra2.nome = 'Monitor';
 
-// console.log(produto2);
-// console.log(outra2);
+console.log(produto2);
+console.log(outra2);
 
 
 const produto3 = { nome: 'Mouse', preco: 120};
 const mouse = Object.assign({}, produto3);
 
-// console.log(produto3);
-// console.log(mouse);
+console.log(produto3);
+console.log(mouse);
 
-//console.log(Object.getOwnPropertyDescriptor(caneca, 'nome'));
+console.log(Object.getOwnPropertyDescriptor(caneca, 'nome'));
 
 const caneca = {nome: 'Caneca', preco: 40};
-// console.log(Object.values(caneca));
-// console.log(Object.entries(caneca));
+console.log(Object.values(caneca));
+console.log(Object.entries(caneca));
 
 
 
