@@ -11,7 +11,3 @@ Pessoa.prototype.nomeCompleto = function(){
 
 //Instância
 const pessoa1 = new Pessoa('João', 'Silva'); //Instância de Pessoa =  Função Construtora
-
-
-
-console.dir(pessoa1);
