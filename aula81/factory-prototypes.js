@@ -18,7 +18,7 @@ const beber = {
 };
 
 
-const pessoaPrototype = {...falar, ...comer, ...beber};
+const pessoaPrototype = Object.assign(falar, comer, beber);
 
 
 function criaPessoa(nome, sobrenome){
