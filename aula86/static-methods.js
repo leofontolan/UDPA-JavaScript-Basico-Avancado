@@ -28,4 +28,3 @@ console.log(c2);
 
 
 RemoteControl.changeFrequency(120);
-c2.changeFrequency(600);
