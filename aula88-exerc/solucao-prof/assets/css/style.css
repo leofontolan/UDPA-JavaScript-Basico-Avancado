@@ -69,3 +69,9 @@ form button:active{
     margin: 20px 0px 30px 0px;
 }
 
+
+.error-text{
+    color: red;
+    font-size: 0.8em;
+    margin-bottom: 10px;
+}
