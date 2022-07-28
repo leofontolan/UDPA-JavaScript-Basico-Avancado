@@ -1,7 +1,9 @@
-fetch("pessoas.json")
-  .then((response) => response.json())
-  .then((json) => loadElements(json));
+// fetch("pessoas.json")
+//   .then((response) => response.json())
+//   .then((json) => loadElements(json));
 
+
+axios.get("pessoas.json").then(response => loadElements(response.data));
 
 function loadElements(json) {
 
