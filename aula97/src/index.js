@@ -1,6 +1,5 @@
-const firstName = 'John';
-const age = 30;
-const obj = { firstName, age };
-const obj2 = {...obj, age: age + 1 };
+import { firstName as name, lastName, age, sum } from "./modulo1";
 
-console.log(obj2);
+const firstName = 'Leonardo';
+
+console.log(firstName, name ,lastName, age, sum(1, 2));
