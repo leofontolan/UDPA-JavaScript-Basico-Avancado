@@ -1,4 +1,4 @@
-class ValidaCPF{
+export default class ValidaCPF{
 
     constructor(cpf){
         Object.defineProperty(this, 'cpfLimpo', {
