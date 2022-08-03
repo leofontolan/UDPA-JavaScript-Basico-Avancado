@@ -1,9 +1,15 @@
-const firstName = 'Juan';
-const lastName = 'Perez';
-const age = 30;
+export const firstName = 'Juan';
+export const lastName = 'Perez';
+export const age = 30;
 
-function sum(x, y){
+export function sum(x, y){
     return x + y;
 }
 
-export {firstName, lastName, age, sum};
+export default class Person{
+    constructor(name, lastName, age){
+        this.name = name;
+        this.lastName = lastName;
+        this.age = age;
+    }
+}

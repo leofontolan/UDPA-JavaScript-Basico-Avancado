@@ -1,2 +1,2 @@
-(()=>{"use strict";console.log("Leonardo","Juan","Perez",30,3)})();
+(()=>{"use strict";function e(e,t){for(var n=0;n<t.length;n++){var r=t[n];r.enumerable=r.enumerable||!1,r.configurable=!0,"value"in r&&(r.writable=!0),Object.defineProperty(e,r.key,r)}}function t(t,n,r){return n&&e(t.prototype,n),r&&e(t,r),Object.defineProperty(t,"prototype",{writable:!1}),t}var n=new(t((function e(t,n,r){!function(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}(this,e),this.name=t,this.lastName=n,this.age=r})))("Leo","Silva",42);console.log(n)})();
 //# sourceMappingURL=bundle.js.map

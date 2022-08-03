@@ -1,5 +1,4 @@
-import { firstName as name, lastName, age, sum } from "./modulo1";
+import QualquerNome from './modulo1';
 
-const firstName = 'Leonardo';
-
-console.log(firstName, name ,lastName, age, sum(1, 2));
+const qn =  new QualquerNome('Leo', 'Silva', 42);
+console.log(qn);
